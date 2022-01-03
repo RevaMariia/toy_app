@@ -12,4 +12,29 @@
  *
  *= require_tree .
  *= require_self
- */
+ /
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+*/
+@import "bootstrap";
+
+/* universal */
+
+body {
+    padding-top: 100px;
+}
+
+section {
+    overflow: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 12px;
+}
